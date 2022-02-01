@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'activerecord-session_store'
-gem "authlogic", "4.4.2"
+gem "authlogic", "6.4.2"
 gem 'authlogic-oid'
 gem "composite_primary_keys"
 gem 'figaro' # To easily test OAuth providers in the development mode
@@ -43,10 +43,10 @@ gem "php-serialize", :require => "php_serialize"
 gem 'rack-cors', :require => 'rack/cors'
 gem "rack-openid"
 gem "rack-test", "1.1.0"
-gem 'rails', '5.2.6'
+gem 'rails', '7.0.1'
 gem 'rails-controller-testing'
 gem 'rails-dom-testing'
-gem 'rails-i18n', '~> 5.1.3'
+gem 'rails-i18n', '~> 7.0.1'
 gem 'rails_autolink'
 gem 'rb-readline'
 gem 'rdiscount', '~> 2.2'
